@@ -29,6 +29,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* background-color: rgb(127, 73, 127); */
+  background-image: url("https://i.stack.imgur.com/setal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
 }
 
 h1 {
@@ -46,6 +51,8 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  background-color: rgb(143, 67, 143);
+
 }
 button:hover {
   border-color: #646cff;
